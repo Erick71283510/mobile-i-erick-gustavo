@@ -1,6 +1,8 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import Icon from 'react-native-vector-icons/FontAwesome'; // Importando o ícone
+import React from "react";
+import Routes from "./src/routes";
 
 export default function App() {
   // Exemplo de dados do aluno
@@ -19,6 +21,7 @@ export default function App() {
   ];
 
   return (
+    
     <View style={styles.container}>
       <Text style={styles.header}>Boletim Escolar</Text>
       <View style={styles.infoContainer}>
